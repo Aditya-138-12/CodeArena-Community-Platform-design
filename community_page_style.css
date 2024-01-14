@@ -1,0 +1,88 @@
+body{background-color:#0b1416;}
+
+@font-face{
+
+font-family:samarkan;
+src:url("SAMAN___.TTF");
+
+}
+
+.comunity_page_top_div{position:absolute; top:0vw; left:0vw; width:100%; height:3vw; border-bottom:0.1vw solid rgba(255,255,255,0.2);}
+
+.comunity_page_top_div_div_for_heading{display:inline-block; position:relative; width:10vw; height:100%;}
+.comunity_page_top_div_div_for_heading_p{position:absolute; color:white; line-height:0vw; height:contain; width:contain; left:1vw; top:-0.5vw; font-size:2vw; font-family:samarkan;}
+
+.comunity_page_top_div_search_bar{position:relative; display:inline-block; width:35vw; height:80%; background-color:#223237; top:-0.27vw; left:24vw; border-radius:2vw; cursor:text-select; border:0.1vw solid #0b1416; transition:0.2s;}
+.comunity_page_top_div_search_bar:hover{border:0.1vw solid rgba(255,255,255,0.6); transition:0.2s;}
+
+.comunity_page_top_div_search_bar_icon{position:absolute; width:3vw; height:100%; background-image:url("Assests/magnifier.png"); background-repeat:no-repeat; background-size:70% 70%; top:0.3vw; left:0.4vw;}
+
+.comunity_page_top_div_search_bar_place_holder{position:absolute; font-size:1vw; color:white; top:0.2vw; left:3vw; line-height:0vw; font-family:Space Grotesk Variable, sans-serif;}
+
+.search_text{position:absolute; width:92%; height:100%; top:0vw; right:0vw; background-color:transparent; outline:none; border:none; border-radius:2vw; font-size:1.6vw; color:white;}
+
+.comunity_page_top_div_search_bar_options{position:absolute; top:0.5vw; right:1vw; border-radius:50%; width:2vw; height:2vw; background-color:#0b1416; transition:0.2s; cursor:pointer;}
+.comunity_page_top_div_search_bar_options:hover{background-color:#223237; transition:0.2s;}
+.circle_1{position:absolute; height:0.2vw; width:0.2vw; background-color:white; border-radius:50%; top:0.9vw; left:0.5vw;}
+.circle_2{position:absolute; height:0.2vw; width:0.2vw; background-color:white; border-radius:50%; top:0.9vw; left:0.9vw;}
+.circle_3{position:absolute; height:0.2vw; width:0.2vw; background-color:white; border-radius:50%; top:0.9vw; left:1.3vw;}
+
+.options_div{position:absolute; height:10vw; width:10vw; background-color:#223237; top:3vw; right:2vw; display:none;}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.comunity_page_main_feed_div{position:absolute; width:45vw; height:calc(100% - 3vw); border-left:0.1vw solid rgba(255,255,255,0.2); border-right:0.1vw solid rgba(255,255,255,0.2); top:calc(3vw - 0vw); left:29vw; overflow-y:scroll;}
+
+
+
+.comunity_page_main_side_bar_topics{position:absolute; width:12vw; height:calc(100% - 3vw); top:calc(3vw - 0vw); left:6.5vw; border-right:0.1vw solid rgba(255,255,255,0.2);}
+
+.comunity_page_main_side_bar_topics_queries{position:absolute; width:80%; right:0vw; top:1vw; height:2vw; border-radius:2vw; cursor:pointer; border:0.01vw solid rgba(255,255,255,0.2);}
+.comunity_page_main_side_bar_topics_queries_p{position:absolute; color:white; top:-0.4vw; left:3.6vw; font-size:0.85vw;} 
+.comunity_page_main_side_bar_topics_queries:hover{background-color:#223237;}
+
+.comunity_page_main_side_bar_topics_announcement{position:absolute; width:80%; right:0vw; top:4vw; height:2vw; border-radius:2vw; cursor:pointer; border:0.01vw solid rgba(255,255,255,0.2);}
+.comunity_page_main_side_bar_topics_announcement_p{position:absolute; color:white; top:-0.4vw; left:2.4vw; font-size:0.85vw;} 
+.comunity_page_main_side_bar_topics_announcement:hover{background-color:#223237;}
+
+.comunity_page_main_side_bar_topics_heading_1{position:absolute; height:2.2vw; width:80%; right:0vw; top:calc(4vw + 3.5vw); border-top:0.1vw solid rgba(255,255,255,0.2);}
+.comunity_page_main_side_bar_topics_heading_1_p{font-size:0.95vw; text-align:left; color:rgba(255,255,255,0.4);}
+
+.comunity_page_main_side_bar_topics_questions{position:absolute; width:80%; right:0vw; top:10.5vw; height:2vw; border-radius:2vw; cursor:pointer; border:0.01vw solid rgba(255,255,255,0.2);}
+.comunity_page_main_side_bar_topics_questions_p{position:absolute; color:white; top:-0.4vw; left:3.1vw; font-size:0.85vw;} 
+.comunity_page_main_side_bar_topics_questions:hover{background-color:#223237;}
+
+.comunity_page_main_side_bar_topics_doubts{position:absolute; width:80%; right:0vw; top:13.5vw; height:2vw; border-radius:2vw; cursor:pointer; border:0.01vw solid rgba(255,255,255,0.2);}
+.comunity_page_main_side_bar_topics_doubts_p{position:absolute; color:white; top:-0.4vw; left:3.5vw; font-size:0.85vw;} 
+.comunity_page_main_side_bar_topics_doubts:hover{background-color:#223237;}
+
+.comunity_page_main_side_bar_topics_heading_2{position:absolute; height:2.2vw; width:80%; right:0vw; top:calc(13.5vw + 3.5vw); border-top:0.1vw solid rgba(255,255,255,0.2);}
+.comunity_page_main_side_bar_topics_heading_2_p{font-size:0.95vw; text-align:left; color:rgba(255,255,255,0.4);}
+
+.comunity_page_main_side_bar_topics_meme{position:absolute; width:80%; right:0vw; top:20vw; height:2vw; border-radius:2vw; cursor:pointer; border:0.01vw solid rgba(255,255,255,0.2); background-color:#223237;}
+.comunity_page_main_side_bar_topics_meme_p{position:absolute; color:white; top:-0.4vw; left:3.6vw; font-size:0.85vw;} 
+.comunity_page_main_side_bar_topics_meme:hover{background-color:#223237;}
+
+.comunity_page_main_side_bar_topics_allrights{position:absolute; bottom:20.5vw; color:rgba(255,255,255,0.4); font-size:0.7vw; right:0vw;}
+
+.comunity_page_post_button{position:absolute; width:3vw; height:3vw; border-radius:50%; background-color:#0b1416; bottom:2vw; right:2vw; border:0.1vw solid rgba(255,255,255,0.2); cursor:pointer;}
+.plus_1{position:relative; height:50%; width:0.19vw; background-color:white; top:0.8vw; left:1.45vw;}
+.plus_2{position:relative; height:0.15vw; width:50%; background-color:white; top:-0.05vw; left:0.76vw;}
+.comunity_page_post_button:hover{background-color:#223237;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Page CodeArena</title>
+    <link rel="stylesheet" href="community_page_style.css">
+</head>
+
+<body>
+
+<div class="comunity_page_top_div" id="comunity_page_top_div">
+	
+	<div class="comunity_page_top_div_div_for_heading">
+		<p class="comunity_page_top_div_div_for_heading_p">CodeArena</p>
+	</div>
+	
+	<div class="comunity_page_top_div_search_bar">
+		<div class="comunity_page_top_div_search_bar_icon"></div>
+		
+		<p class="comunity_page_top_div_search_bar_place_holder">Search</p>
+		
+		<input id="search_text" class="search_text" name="search_text" type="text" required>
+		
+	</div>
+	
+	<div class="comunity_page_top_div_search_bar_options" onclick = "clicked_options()">
+		<div class="circle_1"></div>
+		<div class="circle_2"></div>
+		<div class="circle_3"></div>
+	</div>
+	
+</div>
+
+<div class="options_div" id="options_div" style="display:none;"></div>
+
+<div class="comunity_page_main_feed_div">
+
+
+
+</div>
+
+<div class="comunity_page_main_side_bar_topics">
+
+	<div class="comunity_page_main_side_bar_topics_queries">
+		<p class="comunity_page_main_side_bar_topics_queries_p">Queries</p>
+	</div>
+	
+	<div class="comunity_page_main_side_bar_topics_announcement">
+		<p class="comunity_page_main_side_bar_topics_announcement_p">Announcement</p>
+	</div>
+	
+	<div class="comunity_page_main_side_bar_topics_heading_1">
+		<p class="comunity_page_main_side_bar_topics_heading_1_p">Study</p>
+	</div>
+	
+	<div class="comunity_page_main_side_bar_topics_questions">
+		<p class="comunity_page_main_side_bar_topics_questions_p">Questions</p>
+	</div>
+	
+	<div class="comunity_page_main_side_bar_topics_doubts">
+		<p class="comunity_page_main_side_bar_topics_doubts_p">Doubts</p>
+	</div>
+	
+	<div class="comunity_page_main_side_bar_topics_heading_2">
+		<p class="comunity_page_main_side_bar_topics_heading_2_p">Fun</p>
+	</div>
+	
+	<div class="comunity_page_main_side_bar_topics_meme">
+		<p class="comunity_page_main_side_bar_topics_meme_p">Meme</p>
+	</div>
+	
+	<p class="comunity_page_main_side_bar_topics_allrights">CodeArena inc All Rgihts Reserved 2024.</p>
+	
+</div>
+
+<div class="comunity_page_post_button">
+
+	<div class="plus_1"></div>
+	<div class="plus_2"></div>
+	
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+let counter = 0;
+
+function clicked_options(){
+
+counter++;
+
+let id_options = document.getElementById("options_div");
+
+if(counter % 2 == 1){
+
+id_options.style.display = "block";}else{id_options.style.display = "none";}
+
+}
+
+</script>
+
+
+</html>
